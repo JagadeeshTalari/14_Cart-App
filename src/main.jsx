@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
@@ -8,5 +9,17 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <AppProvider>
       <App />
     </AppProvider>
+=======
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import "./index.css";
+import AppContext from "./GlobalContext/AppContext";
+ReactDOM.createRoot(document.getElementById("root")).render(
+  <React.StrictMode>
+    <AppContext>
+      <App />
+    </AppContext>
+>>>>>>> origin/main
   </React.StrictMode>
 );

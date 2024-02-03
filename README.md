@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Figma URL
 
 [Cart](https://www.figma.com/file/5AwKjnWuM6BhRYmxdQFpky/Cart?node-id=0%3A1&t=lfaO4zazTd7nqF1q-1)
@@ -160,3 +161,6 @@ console.log(cartArray);
 //   [2, { id: 2, name: 'second', price: 20 }]
 // ]
 ```
+=======
+# Cart App using useReducer
+>>>>>>> origin/main
